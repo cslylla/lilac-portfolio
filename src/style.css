@@ -12,7 +12,12 @@ h1 {
   font-family: "Candal", sans-serif;
 }
 
-header {
+.nav-bar-logo {
+  max-width: 40px;
+  border-radius: 50px;
+}
+
+.hero {
   background-image: url(/images/main-image.jpg);
   background-position: top center;
   background-repeat: no-repeat;
@@ -24,16 +29,13 @@ header {
   padding-top: 25rem;
   margin-bottom: 12rem;
 }
-header h1 {
+
+.hero h1 {
   font-size: 3rem;
   line-height: 3.5rem;
 }
 
-header h2 {
+.hero h2 {
   font-size: 2rem;
   line-height: 2.5rem;
-}
-.nav-bar-logo {
-  max-width: 40px;
-  border-radius: 50px;
 }
