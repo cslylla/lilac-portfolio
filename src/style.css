@@ -4,6 +4,7 @@
   --accent-color-dark: #2e5214;
   --accent-color-light: #80c31e;
   --shadow: 0.3rem 0.3rem 1rem 0.1rem rgba(0, 0, 0, 0.4);
+  --shape: 6em 1em;
 }
 body {
   background-color: var(--secondary-color);
@@ -38,7 +39,7 @@ h9 {
   color: var(--secondary-color);
   text-align: center;
   padding-top: 20rem;
-  margin-bottom: 12rem;
+  margin-bottom: 10rem;
 }
 
 .hero h1 {
@@ -56,6 +57,7 @@ h9 {
 .woman-picture {
   max-width: 400px;
   width: 100%;
+  border-radius: var(--shape);
 }
 
 .primary-button {
@@ -63,7 +65,7 @@ h9 {
   background-color: var(--primary-color);
   padding: 0.8rem;
   text-decoration: none;
-  border-radius: 6em 1em;
+  border-radius: var(--shape);
   font-family: "Cabin", sans-serif;
   box-shadow: var(--shadow);
   transition: all 200ms ease-in-out;
@@ -82,7 +84,7 @@ h9 {
   border: 2px solid var(--primary-color);
   padding: 0.8rem;
   text-decoration: none;
-  border-radius: 6em 1em;
+  border-radius: var(--shape);
   font-family: "Cabin", sans-serif;
   box-shadow: var(--shadow);
   transition: all 200ms ease-in-out;
