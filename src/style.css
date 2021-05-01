@@ -1,0 +1,16 @@
+body {
+  background-color: plum;
+  font-family: "Cabin", sans-serif;
+}
+h1 {
+  font-family: "Candal", sans-serif;
+}
+.bold {
+  font-weight: 700;
+}
+
+.icons {
+  font-size: 30px;
+  color: purple;
+  padding: 5px;
+}
