@@ -3,13 +3,24 @@
   --secondary-color: #e5bff5;
   --accent-color-dark: #2e5214;
   --accent-color-light: #80c31e;
+  --shadow: 0.3rem 0.3rem 1rem 0.1rem rgba(0, 0, 0, 0.4);
 }
 body {
-  background-image: linear-gradient(to bottom right, #a786bf, #e5bff5);
+  background-color: var(--secondary-color);
   font-family: "Cabin", sans-serif;
 }
-h1 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7,
+h8,
+h9 {
   font-family: "Candal", sans-serif;
+  color: var(--primary-color);
 }
 
 .nav-bar-logo {
@@ -33,9 +44,55 @@ h1 {
 .hero h1 {
   font-size: 3rem;
   line-height: 3.5rem;
+  color: var(--secondary-color);
 }
 
 .hero h2 {
   font-size: 2rem;
   line-height: 2.5rem;
+  color: var(--secondary-color);
+}
+
+.woman-picture {
+  max-width: 400px;
+  width: 100%;
+}
+
+.primary-button {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-decoration: none;
+  border-radius: 6em 1em;
+  font-family: "Cabin", sans-serif;
+  box-shadow: var(--shadow);
+  transition: all 200ms ease-in-out;
+}
+
+.primary-button:hover {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  border: 2px solid var(--primary-color);
+  box-shadow: none;
+}
+
+.secondary-button {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  border: 2px solid var(--primary-color);
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-decoration: none;
+  border-radius: 6em 1em;
+  font-family: "Cabin", sans-serif;
+  box-shadow: var(--shadow);
+  transition: all 200ms ease-in-out;
+}
+
+.secondary-button:hover {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  box-shadow: none;
+  text-decoration: none;
 }
