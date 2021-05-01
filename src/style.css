@@ -1,16 +1,18 @@
+:root {
+  --primary-color: #55306e;
+  --secondary-color: #e5bff5;
+  --accent-color-dark: #2e5214;
+  --accent-color-light: #80c31e;
+}
 body {
-  background-color: plum;
+  background-image: linear-gradient(to bottom right, #a786bf, #e5bff5);
   font-family: "Cabin", sans-serif;
 }
 h1 {
   font-family: "Candal", sans-serif;
 }
-.bold {
-  font-weight: 700;
-}
 
-.icons {
-  font-size: 30px;
-  color: purple;
-  padding: 5px;
+.nav-bar-logo {
+  max-width: 40px;
+  border-radius: 50px;
 }
