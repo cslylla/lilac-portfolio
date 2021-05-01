@@ -96,3 +96,40 @@ h9 {
   box-shadow: none;
   text-decoration: none;
 }
+
+.icon {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin: 1rem;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 20px 0;
+}
+
+.footer-icon-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+
+.footer-icon {
+  font-size: 2.5rem;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: all 200ms ease-in-out;
+  font-weight: 900;
+}
+
+.footer-link:hover {
+  text-decoration: none;
+  color: var(--accent-color-light);
+  transition: all 200ms ease-in-out;
+}
