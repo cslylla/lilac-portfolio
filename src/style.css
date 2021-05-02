@@ -167,11 +167,31 @@ footer {
   color: var(--accent-color-dark);
 }
 
-.my-code {
+.my-code,
+.skills {
   background: var(--accent-color-light);
   box-shadow: var(--shadow);
-  border-radius: 50px;
-  margin-top: 8rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+.path {
+  margin-top: 3rem;
+  padding-left: 3rem;
+}
+
+.job {
+  color: var(--accent-color-dark);
+  font-weight: bold;
+}
+
+.certificate {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+.certificate-description {
+  list-style: none;
+  margin-bottom: 1rem;
 }
 
 .app-title {
