@@ -109,6 +109,12 @@ footer {
   text-align: center;
   font-size: 0.8rem;
   padding: 20px 0;
+
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .footer-icon-container {
@@ -132,6 +138,25 @@ footer {
   text-decoration: none;
   color: var(--accent-color-light);
   transition: all 200ms ease-in-out;
+}
+
+.pages-main {
+  margin: 4rem;
+}
+
+.contact-list {
+  list-style: none;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: var(--paragraph-text-color);
+  transition: all 200ms ease-in-out;
+}
+
+.contact-link:hover {
+  font-weight: bold;
+  color: var(--accent-color-dark);
 }
 
 @media (min-width: 600px) {
