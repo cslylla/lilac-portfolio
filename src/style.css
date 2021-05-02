@@ -116,6 +116,9 @@ footer {
   right: 0;
   bottom: 0;
 }
+.main-page-footer {
+  position: relative;
+}
 
 .footer-icon-container {
   display: flex;
