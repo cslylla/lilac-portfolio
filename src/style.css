@@ -48,14 +48,10 @@ p {
 }
 
 .hero h1 {
-  font-size: 3rem;
-  line-height: 3.5rem;
   color: var(--secondary-color);
 }
 
 .hero h2 {
-  font-size: 2rem;
-  line-height: 2.5rem;
   color: var(--secondary-color);
 }
 
@@ -79,7 +75,7 @@ p {
 }
 
 .primary-button:hover {
-  color: var(--paragraph-text-color);
+  color: var(--secondary-color);
   background-color: var(--accent-color-dark);
 }
 
@@ -136,4 +132,26 @@ footer {
   text-decoration: none;
   color: var(--accent-color-light);
   transition: all 200ms ease-in-out;
+}
+
+@media (min-width: 600px) {
+  .hero h1,
+  .hero h2 {
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero h1,
+  .hero h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (max-width: 990px) {
+  .photo-container {
+    text-align: center;
+  }
 }
