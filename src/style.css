@@ -172,7 +172,7 @@ footer {
   background: var(--accent-color-light);
   box-shadow: var(--shadow);
   border-radius: 1rem;
-  padding: 2rem;
+  padding: 1rem;
   margin-top: 3rem;
 }
 .path {
