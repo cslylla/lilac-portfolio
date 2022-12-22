@@ -37,6 +37,7 @@ p {
   text-decoration: none;
   border-radius: 50px;
   font-family: "Cabin", sans-serif;
+  font-weight: bold;
   box-shadow: var(--shadow);
   transition: var(--transition);
 }
@@ -54,6 +55,7 @@ p {
   text-decoration: none;
   border-radius: 50px;
   font-family: "Cabin", sans-serif;
+  font-weight: bold;
   box-shadow: var(--shadow);
   transition: var(--transition);
 }
@@ -88,6 +90,7 @@ p {
 .nav-link {
   color: var(--secondary-color) !important;
   transition: var(--transition);
+  font-weight: bold;
 }
 
 .nav-link:hover {
@@ -110,11 +113,14 @@ p {
   text-align: center;
   padding-top: 15rem;
   margin-bottom: 5rem;
+  opacity: 0.6;
 }
 
 .hero h1,
 .hero h2 {
   color: var(--secondary-color);
+  filter: brightness(1.5);
+  text-shadow: 0 0 5px rgb(75, 73, 73);
 }
 
 /*About page*/
@@ -165,10 +171,6 @@ footer {
   bottom: 0;
 }
 
-.footer-icon {
-  font-size: 2.5rem;
-}
-
 .footer-icon-container {
   display: flex;
   justify-content: space-evenly;
@@ -185,6 +187,24 @@ footer {
 .footer-link:hover {
   text-decoration: none;
   color: var(--accent-color-light);
+}
+
+.footer-icon {
+  height: 50px;
+  transition: var(--transition);
+}
+
+.footer-icon:hover {
+  filter: opacity(0.5);
+  background-color: #402e32;
+}
+
+.medium-icon {
+  border-radius: 50px;
+}
+
+.github-icon {
+  height: 55px;
 }
 
 .app-image,
@@ -319,6 +339,19 @@ footer {
   }
   .portfolio-image-box {
     display: none;
+  }
+  .about-box {
+    text-align: center;
+  }
+  .intro {
+    margin: 1rem auto;
+  }
+  .my-code,
+  .skills {
+    margin-top: 1rem;
+  }
+  .portfolio-text-box {
+    margin-bottom: 1rem;
   }
 }
 
