@@ -157,6 +157,22 @@ p {
   margin: 3rem auto;
 }
 
+.area {
+  font-family: "Candal", sans-serif;
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+.areas-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.areas-element {
+  margin: 2rem;
+}
+
 /*Footer*/
 footer {
   background-color: var(--primary-color);
@@ -358,5 +374,12 @@ footer {
 @media (max-width: 990px) {
   .photo-container {
     text-align: center;
+  }
+  .areas-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .areas-element {
+    margin: 1.5rem auto;
   }
 }
