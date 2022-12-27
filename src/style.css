@@ -305,6 +305,10 @@ footer {
   padding: 1rem;
   margin-top: 3rem;
 }
+.my-code {
+  width: 60%;
+  margin: 3rem auto 0;
+}
 
 /*Portfolio page*/
 .portfolio-container {
@@ -376,9 +380,18 @@ footer {
   .open-button {
     display: block;
     text-align: center;
+    width: fit-content;
+    margin: 0 auto;
   }
   .portfolio-image-box {
     display: none;
+  }
+  .portfolio-text-box {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  .portfolio-text {
+    text-align: center;
   }
   .about-box {
     text-align: center;
@@ -390,11 +403,21 @@ footer {
   .skills {
     margin-top: 1rem;
   }
+  .my-code {
+    width: 100%;
+    margin: 1.5rem auto 0;
+  }
   .portfolio-text-box {
     margin-bottom: 1rem;
   }
   .path {
     padding: 0;
+  }
+  .pages-main {
+    margin: 5rem 3rem;
+  }
+  .areas-element {
+    margin: 1.5rem auto;
   }
 }
 
@@ -405,8 +428,5 @@ footer {
   .areas-container {
     flex-direction: column;
     flex-wrap: wrap;
-  }
-  .areas-element {
-    margin: 1.5rem auto;
   }
 }
