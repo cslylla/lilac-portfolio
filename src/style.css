@@ -74,11 +74,6 @@ p {
   margin: 5rem;
 }
 
-.path {
-  margin-top: 3rem;
-  padding-left: 3rem;
-}
-
 /*Nav bar*/
 .nav-bar-logo {
   max-width: 40px;
@@ -99,6 +94,56 @@ p {
 
 .active {
   color: var(---accent-color-dark) !important;
+}
+
+/*Footer*/
+footer {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 20px 0;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.footer-icon-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: var(--transition);
+  font-weight: 900;
+}
+
+.footer-link:hover {
+  text-decoration: none;
+  color: var(--accent-color-light);
+}
+
+.footer-icon {
+  height: 40px;
+  transition: var(--transition);
+}
+
+.footer-icon:hover {
+  filter: opacity(0.5);
+  background-color: #402e32;
+}
+
+.medium-icon {
+  border-radius: 50px;
+}
+
+.github-icon {
+  height: 55px;
 }
 
 /*Hero header*/
@@ -182,56 +227,6 @@ p {
   padding: 0;
 }
 
-/*Footer*/
-footer {
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-  text-align: center;
-  font-size: 0.8rem;
-  padding: 20px 0;
-  display: block;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.footer-icon-container {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 2rem;
-}
-
-.footer-link {
-  text-decoration: none;
-  color: var(--secondary-color);
-  transition: var(--transition);
-  font-weight: 900;
-}
-
-.footer-link:hover {
-  text-decoration: none;
-  color: var(--accent-color-light);
-}
-
-.footer-icon {
-  height: 40px;
-  transition: var(--transition);
-}
-
-.footer-icon:hover {
-  filter: opacity(0.5);
-  background-color: #402e32;
-}
-
-.medium-icon {
-  border-radius: 50px;
-}
-
-.github-icon {
-  height: 55px;
-}
-
 .app-image,
 .profile-picture {
   max-width: 400px;
@@ -305,9 +300,15 @@ footer {
   padding: 1rem;
   margin-top: 3rem;
 }
+
 .my-code {
   width: 60%;
   margin: 3rem auto 0;
+}
+
+.path {
+  margin-top: 3rem;
+  padding-left: 3rem;
 }
 
 /*Portfolio page*/
