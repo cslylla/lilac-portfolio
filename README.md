@@ -16,13 +16,11 @@ I started this project as a part of the **SheCodes** Responsive workshop to coll
 
 ### 2. Usage
 
-* On the **About** page, you can find my introduction and a summary of my skills and experiences
-* On the **Resume** page, you can see my education, work history with experiences, detailed skills and certifications
-* On the **Portfolio** page, I collected my projects. Each project has a description. In most cases, I added a picture and a link to the web pages as well, so you can visit them
-* On the **Contact** page, you can connect with me on social media
-
+* On the **About** page, you can find my introduction and a summary of my skills and experiences.
+* On the **Resume** page, you can see my education, a summary of my work history with experiences, skills and recent certifications. You can also download my full resume as a PDF file from here.
+* On the **Portfolio** page, I collected my projects. Each project has a description. I added a picture and a link to the web pages as well, so you can visit them.
+* On the **Contact** page, you can connect with me on social media.
 
 ### 3. Links
 
-* My portfolio website is reachable [here](https://fervent-mcclintock-5ae779.netlify.app/)
-* Further info about [SheCodes](https://www.shecodes.io/)
+* My portfolio website is reachable [here](https://lillacsanaky.dev)
