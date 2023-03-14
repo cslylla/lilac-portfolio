@@ -93,7 +93,7 @@ p {
 }
 
 .active {
-  color: var(---accent-color-dark) !important;
+  color: var(--accent-color-dark) !important;
 }
 
 /*Footer*/
@@ -429,5 +429,9 @@ footer {
   .areas-container {
     flex-direction: column;
     flex-wrap: wrap;
+  }
+
+  .areas-header {
+    text-align: center;
   }
 }
