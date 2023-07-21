@@ -331,7 +331,7 @@ footer {
   font-weight: bold;
 }
 
-.my-code,
+.portfolio-link,
 .skills {
   background-color: var(--accent-color-dark);
   color: var(--secondary-color);
@@ -339,11 +339,6 @@ footer {
   border-radius: 1rem;
   padding: 1rem;
   margin-top: 3rem;
-}
-
-.my-code {
-  width: 60%;
-  margin: 3rem auto 0;
 }
 
 .path {
@@ -376,7 +371,24 @@ footer {
   margin-bottom: 3rem;
 }
 
-.my-code p {
+.portfolio-links {
+  display: flex;
+  flex-wrap: no-wrap;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+.portfolio-link {
+  width: 60%;
+  margin: 0;
+  text-align: center;
+  padding: 2rem;
+}
+
+.portfolio-link p {
   color: var(--secondary-color);
 }
 
@@ -474,6 +486,13 @@ footer {
   }
   .areas-container {
     flex-direction: column;
+  }
+  .portfolio-links {
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  .portfolio-link {
+    width: 90%;
   }
 }
 
